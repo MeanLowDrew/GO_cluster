@@ -21,7 +21,7 @@ X-axis: Log2 fold change in gene expression associated with each GO term.
 
 Inputs:
 
-1. Deseq2 output or other algorythym that provides list of significantly chaged genes, p value, and log fold change
+1. Deseq2 output or other algorithm that provides list of significantly changed genes, p value, and log fold change
  (see example "P_aeruginosa_results.csv" in Data folder)
 2. Genome annotation database (org.Xy.eg.db)
 
@@ -30,7 +30,7 @@ Steps:
 2. Filter Significant Genes
 3. use "GO.parse" function to format the enrichGO output into a dataframe
 4. run "combine.GOs" to cluster GO terms 
-5. visulize with "plot.shared.GOs"
+5. visualize with "plot.shared.GOs"
 ##### *RUN "Single_species_tutorial.25.04.08.R" for in depth exploration of single species analysis!*
 
 
@@ -38,14 +38,14 @@ Steps:
 
 Inputs:
 1. Deseq outputs for both species (see example "P_aeruginosa_results.csv" in Data folder)
-2. Genome annotation databasesfor both species (org.Xy.eg.db) 
+2. Genome annotation databases for both species (org.Xy.eg.db) 
 
 Steps:
 1. import Deseq2 results
 2. Filter Significant Genes
 3. use "GO.parse" function to format the enrichGO output into a dataframe
 4. run "combine.GOs" to cluster GO terms 
-5. visulize with "plot.shared.GOs"
+5. visualize with "plot.shared.GOs"
 ##### *RUN "Two_species_tutorial.25.04.08.R" for in depth exploration of two species analysis!*
 
 References:
